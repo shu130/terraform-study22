@@ -1,5 +1,6 @@
 # Terraform勉強-第22回：VPC, SecurityGroup, EC2, RDSの作成とWordPressセットアップ
 
+githubリポジトリ："https://github.com/shu130/terraform-study22"
 
 ## テーマ：前回(第21回)の構成を変更
 - EC2インスタンスをAuto Scalingグループに変更
@@ -22,8 +23,7 @@
 ├── elb.tf
 ├── rds.tf
 ├── securitygroup.tf
-├── scripts
-│   ├── cloudwatch_user_data.sh
+├── scripts   
 │   └── wordpress_user_data.sh
 ├── variables.tf
 ├── terraform.tfvars
